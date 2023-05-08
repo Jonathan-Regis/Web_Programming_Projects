@@ -1,0 +1,77 @@
+/* Name: Jonathan Regis */
+
+body{
+    background-color: #ddd78d;
+    font-family: sans-serif;
+}
+header{
+    background-color: #60594d;
+    color: #93a29b;
+    font-family: sans-serif;
+    border: 4px solid black;
+    padding: 10px;
+}
+footer{
+    background-color: #60594d;
+    color: #93a29b;
+    font-family: sans-serif;
+    border: 4px solid black;
+    padding: 10px;
+}
+button{
+    border-radius: 10px;
+}
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 12pt;
+}
+a:hover{
+    color:  #8b635c;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+p,li{
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+q{
+    display: flex;
+    text-align: center;
+    background-color: #dcbf85;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 14pt;
+}
+li.bold{
+    font-weight: bold;
+}
+img{
+    width: 25%;
+    margin: 10px;
+    float: right;
+}
+.footer_header{
+    display: flex;
+    justify-content: right;
+    font-size: 10pt;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p.left_justified{
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+}
